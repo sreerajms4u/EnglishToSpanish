@@ -49,7 +49,7 @@ with col1:
     drawBtn_GenerateStory()
     while run:
         _, frame = camera.read()
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        #frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         # Add content to the right column
         FRAME_VIDWINDOW.image(frame)    
     else:
